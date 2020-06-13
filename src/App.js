@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
+import ItemForm from './components/ItemForm'
+import ItemList from './components/ItemList'
+import {Container} from '@material-ui/core'
+const App=()=>{
+  const [item,setItem]=useState('')
+  const [open, setOpen] = useState(false);
+  const [warning, setWarning] = useState(false);
+  const [remove,setRemove]=useState(false);
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return(
+    <Container>
+    <div>
+     <h1>To-do list:</h1>
+     <ItemForm  item={item} setItem={setItem} setOpen={setOpen} open={open} warning={warning} setWarning={setWarning} />
+     <ItemList  remove={remove} setRemove={setRemove}/>
     </div>
-  );
+    </Container>
+  )
 }
 
 export default App;
