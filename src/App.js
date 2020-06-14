@@ -4,19 +4,22 @@ import ItemForm from './components/ItemForm';
 import ItemList from './components/ItemList';
 import {Container} from '@material-ui/core';
 const App=()=>{
-	const [item,setItem]=useState('');
 	const [open, setOpen] = useState(false);
-	const [warning, setWarning] = useState(false);
-	const [remove,setRemove]=useState(false);
 
+ 
 	return(
-		<Container>
-			<div>
-				<h1>To-do list:</h1>
-				<ItemForm  item={item} setItem={setItem} setOpen={setOpen} open={open} warning={warning} setWarning={setWarning} />
-				<ItemList  remove={remove} setRemove={setRemove}/>
+		<div className="App">	
+			<div >
+    		<Container >
+					{/* <h1 className="h1">To-do list</h1>  */}
+					<ItemForm setOpen={setOpen} open={open} />
+					<div>
+						<ItemList/>
+					</div>
+				</Container>
 			</div>
-		</Container>
+		</div>
+
 	);
 };
 
