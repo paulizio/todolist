@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/todolist/static/css/main.298b74fc.chunk.css",
+    "main.js": "/todolist/static/js/main.98102189.chunk.js",
+    "main.js.map": "/todolist/static/js/main.98102189.chunk.js.map",
+    "runtime-main.js": "/todolist/static/js/runtime-main.86e7f888.js",
+    "runtime-main.js.map": "/todolist/static/js/runtime-main.86e7f888.js.map",
+    "static/js/2.6717b07e.chunk.js": "/todolist/static/js/2.6717b07e.chunk.js",
+    "static/js/2.6717b07e.chunk.js.map": "/todolist/static/js/2.6717b07e.chunk.js.map",
+    "index.html": "/todolist/index.html",
+    "precache-manifest.998ff6278db11b9c04656681dabeba51.js": "/todolist/precache-manifest.998ff6278db11b9c04656681dabeba51.js",
+    "service-worker.js": "/todolist/service-worker.js",
+    "static/css/main.298b74fc.chunk.css.map": "/todolist/static/css/main.298b74fc.chunk.css.map",
+    "static/js/2.6717b07e.chunk.js.LICENSE.txt": "/todolist/static/js/2.6717b07e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/todolist/static/media/white-board-on-beige-surface-1089842.ba18fede.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86e7f888.js",
+    "static/js/2.6717b07e.chunk.js",
+    "static/css/main.298b74fc.chunk.css",
+    "static/js/main.98102189.chunk.js"
+  ]
+}
