@@ -30,10 +30,10 @@ const ItemForm =(props)=>{
 
 		}};
 	return(
-		<div>
+		<div className='form'>
 			<h1 className="h1">To-do list</h1> 
 			<form onSubmit={addItem}>
-				<Typography variant="p" component="p" gutterBottom>
+				<Typography gutterBottom>
         Add items to your to-do list
 				</Typography>
 				<Tooltip title="write a new task here">

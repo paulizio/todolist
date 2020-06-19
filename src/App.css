@@ -2,7 +2,19 @@
   text-align: center;
     height: '100vh';
     min-height: '100vh';
-    
+    display: table-cell;
+    position: absolute;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../src/images/white-board-on-beige-surface-1089842.jpg);
+    background-size: cover;
+    background-position: 10%;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
   
 }
 
@@ -16,4 +28,147 @@ h1 {
 
 .center-me {
   margin: 0 auto;
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .App {
+      text-align: center;
+        height: '100vh';
+        min-height: '100vh';
+        display: table-cell;
+        position: absolute;
+        vertical-align: middle;
+        top: 0;
+        left: 0;
+        height: 130%;
+        width: 95%;
+        background-image: url(../src/images/white-board-on-beige-surface-1089842.jpg);
+        background-size:cover;
+        background-position: center center;
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    h1 {
+      color: rgb(5, 1, 1);
+      font-family: 'Architects Daughter', cursive;
+      text-align: re;
+      font-size: 14mm;
+      padding:10px;
+      
+    }
+
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .App {
+      text-align: center;
+        height: '100vh';
+        min-height: '100vh';
+        display: table-cell;
+        position: absolute;
+        vertical-align: middle;
+        top: 0;
+        left: 0;
+        height: 130%;
+        width: 95%;
+        background-image: url(../src/images/white-board-on-beige-surface-1089842.jpg);
+        background-size:cover;
+        background-position: center center;
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    h1 {
+      color: rgb(5, 1, 1);
+      font-family: 'Architects Daughter', cursive;
+      text-align: re;
+      font-size: 14mm;
+      padding:10px;
+      
+    }
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 740px) 
+  and (-webkit-device-pixel-ratio: 4) {
+    .App {
+      text-align: center;
+        height: '100vh';
+        min-height: '100vh';
+        display: table-cell;
+        position: absolute;
+        vertical-align: middle;
+        top: 0;
+        left: 0;
+        height: 130%;
+        width: 95%;
+        background-image: url(../src/images/white-board-on-beige-surface-1089842.jpg);
+        background-size:cover;
+        background-position: center center;
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    h1 {
+      color: rgb(5, 1, 1);
+      font-family: 'Architects Daughter', cursive;
+      text-align: re;
+      font-size: 14mm;
+      padding:10px;
+      
+    }
+
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .App {
+      text-align: center;
+        height: '100vh';
+        min-height: '100vh';
+        display: table-cell;
+        position: absolute;
+        vertical-align: middle;
+        top: 0;
+        left: 0;
+        height: 115%;
+        width: 100%;
+        background-image: url(../src/images/white-board-on-beige-surface-1089842.jpg);
+        background-size:cover;
+        background-position: center center;
+        opacity: 0.9;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    h1 {
+      color: rgb(5, 1, 1);
+      font-family: 'Architects Daughter', cursive;
+      text-align: re;
+      font-size: 14mm;
+      padding:10px;
+      
+    }
+}
+
+.box{
+  padding: 1px 25px 10px 50px;
+  width:250px;
+  margin: 20px auto 0px;
+  /* margin:2em; */
+  box-shadow: 
+       inset 0 -3em 3em rgba(0, 0, 0, 0.178), 
+             0 0  0 2px rgba(255, 255, 255, 0.308),
+             0.3em 0.3em 1em rgba(0, 0, 0, 0.685);
+             
 }

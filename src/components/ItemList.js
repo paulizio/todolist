@@ -10,7 +10,7 @@ const ItemList=()=>{
 	const items = useSelector(state => state);
 	console.log('items:',items);
 	const dispatch = useDispatch(); 
-	
+
 
 	const handleClick = id=> {
 		dispatch(toggleClicked(id));
@@ -29,7 +29,7 @@ const ItemList=()=>{
 	};
 
 	return(
-		<div>
+		<div className={items.length>0?'box':''}>
 			{items.map(item=>
 				<ul key={item.id}>
 					<Tooltip
